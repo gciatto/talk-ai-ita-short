@@ -16,7 +16,7 @@ outputs = ["Reveal"]
 [Giovanni Ciatto](https://www.unibo.it/sitoweb/giovanni.ciatto), Dipartimento di Informatica — Scienza e Ingegneria (DISI), Sede di Cesena,
 <br>Alma Mater Studiorum—Università di Bologna
 
-{{< image src="./front.png" alt="Immagine di copertina generata con typo" max-h="70vh" >}}
+{{< image src="./front.png" alt="Immagine di copertina generata con typo" max-h="50vh" >}}
 <br>
 <span class="hint">Immagine generata con IA (notare l'errore "di battitura")</span>
 
@@ -30,9 +30,27 @@ outputs = ["Reveal"]
 
 [<i class="fa fa-print" aria-hidden="true"></i> versione stampabile](?print-pdf&pdfSeparateFragments=false)
 
+---
+
+## Scaletta
+
+1. [Nozioni utili](#intro)
+2. [Diversi livelli di IA](#levels): [AGI](#agi), [ASI](#asi), [ANI](#ani)
+3. [AI vs. Informatica](#ai-vs-cs)
+3. [Principali tappe verso l'IA Generativa](#towards-genai)
+4. [IA Generativa (GenAI)](#genai)
+5. [Principali soluzioni tecnologiche per GenAI](#interfaces)
+6. [Principali modalità d'utilizzo di GenAI](#modes)
+    - [motore di ricerca](#search-engine), [assistente di (ri)scrittura](#writing), [assistente di lettura](#reading), [assistente per l'elaborazione dei dati](#data-processing), [generatore di contenuti](#content-generation)
+7. [Quanto è intelligente l'GenAI?](#how-intelligent)
+8. [IA e Società](#society)
+    - [lavoro](#work), [ambiente](#environment), [salute](#health), [istruzione](#education), [sicurezza](#security), [difesa](#defense), [giustizia](#law), [etica](#ethics), [informazione](#news), [arte](#arte)
+
 {{% /section %}}
 
 ---
+
+{{< slide id="intro" >}}
 
 ## Cosa (non) è l'IA?
 
@@ -152,6 +170,8 @@ Una macchina (un computer) che è in grado di:
 
 --- 
 
+{{< slide id="levels" >}}
+
 ## Diversi livelli di IA
 
 1. Artificial _narrow_ intelligence (__ANI__, IA _ristretta_): macchine con un compito preciso che svolgono emulando qualche abilità umana
@@ -164,6 +184,8 @@ Una macchina (un computer) che è in grado di:
     * superiori a quelle di _ogni_ essere _umano_? o della _collettività umana_?
 
 ---
+
+{{< slide id="agi" >}}
 
 # AGI — Artificial _General_ Intelligence
 
@@ -214,6 +236,8 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 - capacità di guadagnare il controllo di altre macchine
 
 ---
+
+{{< slide id="asi" >}}
 
 # ASI — Artificial _Super_ Intelligence
 
@@ -287,6 +311,8 @@ Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_D
 - capace di simulare scenari alternativi nel passato, e il loro impatto sul presente
 
 ---
+
+{{< slide id="ani" >}}
 
 # ANI — Artificial _Narrow_ Intelligence
 
@@ -472,6 +498,8 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 --- 
 
+{{< slide id="ai-vs-cs" >}}
+
 ## IA vs. Informatica
 
 - Questi vantaggi sono veri per qualunque avanzamento tecnico comporti _automazione_
@@ -587,6 +615,8 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
+{{< slide id="towards-genai" >}}
+
 # IA Generativa
 
 ---
@@ -654,24 +684,6 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
-{{< slide id="jerryverso" >}}
-
-## Problema: i __deep-fakes__
-
-Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa alle _implicazioni_: le immagini che vedi in giro per la rete sono vere?
-
-{{< image src="./jerryverso/allstar.png" link="https://www.instagram.com/p/DAS7d1tMtMs/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/beautifulgirl.png" link="https://www.instagram.com/p/DAx1B0Cs_3C/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/corazonespinado.png" link="https://www.instagram.com/p/DAgBU8xMBjY/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/dicaprio.png" link="https://www.instagram.com/p/C_5YMxBsByg/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/girl.png" link="https://www.instagram.com/p/C_bCfxUN7pf/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/megustastu.png" link="https://www.instagram.com/p/DBD5cBrsS40/" width="24%" max-h="30vh" >}}
-{{< image src="./jerryverso/mudo.png" link="https://www.instagram.com/p/DBbNmCYMHrq/" width="24%" max-h="30vh" >}}
-
-{{% /section %}}
-
----
-
 ## Verso l'IA Generativa
 
 ### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
@@ -685,6 +697,8 @@ Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa all
 
 ---
 
+{{< slide id="genai" >}}
+
 ## Verso l'IA Generativa
 
 ### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
@@ -694,106 +708,51 @@ Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa all
 4. \[2023\] __ChatGPT__ e altre tecnologie note come __large language models__ (LLM) aperte al _pubblico generale_
     + <https://chatgpt.com/>, <https://copilot.microsoft.com/>
 
+<br/>
 
-![Concept di funzionamento degli LLM "as-a-Service"](./llm-concept.svg)
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./interface-conversational.png" width="100%" max-h="60vh" >}}
 
-Modello _"as-a-Service"_ $\approx$ l'IA sta nel cloud, vi si accede tramite Internet
-
-(il fornitore del servizio ptorebbe applicare _costi_ o avere altre forme di _tornaconto_)
-
----
-
-## Tecnologia di riferimento: ChatGPT
-
-{{% multicol %}}
-{{% col class="col-4" %}}
-{{< image alt="Installa ChatGPT su Android" src="./playstore.png" link="https://play.google.com/store/search?q=chatgpt&c=apps&hl=it" >}}
-
-![QR code per installare ChatGPT su Android](./qr-install-chatgpt-android.png)
-(scansiona per installare su Android)
-{{% /col %}}
-{{% col class="col-4" %}}
-Logo dell'app:
-{{< image alt="Visita ChatGPT sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" link="https://chatgpt.com/" width="100%" >}}
-(clicca sul logo se sei dal PC o Mac)
-{{% /col %}}
-{{% col class="col-4" %}}
-{{< image alt="Installa ChatGPT su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/chatgpt/id6448311069" height="128px" >}}
-
-![QR code per installare ChatGPT su Android](./qr-install-chatgpt-ios.png)
-(scansiona per installare su iOS)
-{{% /col %}}
-{{% /multicol %}}
+{{% /section %}}
 
 ---
 
-## Tecnologia di riferimento: Copilot
+## __Terminologia__: Modelli Fondazionali vs. _Large Language Models_
 
-{{% multicol %}}
-{{% col class="col-4" %}}
-{{< image alt="Installa Copilot su Android" src="./playstore.png" link="https://play.google.com/store/apps/details?id=com.microsoft.copilot&hl=it" >}}
-
-![QR code per installare Copilot su Android](./qr-install-copilot-android.png)
-(scansiona per installare su Android)
-{{% /col %}}
-{{% col class="col-4" %}}
-Logo dell'app:
-{{< image alt="Visita Copilot sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Microsoft_365_Copilot_Icon.svg" link="https://copilot.microsoft.com/" width="100%" >}}
-(clicca sul logo se sei dal PC o Mac)
-{{% /col %}}
-{{% col class="col-4" %}}
-{{< image alt="Installa Copilot su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/microsoft-copilot/id6472538445" height="128px" >}}
-
-![QR code per installare Copilot su Android](./qr-install-copilot-ios.png)
-(scansiona per installare su iOS)
-{{% /col %}}
-{{% /multicol %}}
+{{< image src="./fm-vs-llm.webp" width="80%" max-h="70vh" alt="Diagramma di Venn che spiega come gli LLM siano un caso particolare di modelli fondazionali " link="https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404" >}}
 
 ---
 
 {{% section %}}
 
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 1)
+## GenAI con modello di consumo _as-a-Service_
 
-### ChatGPT
-
-Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad esempio:
-
-1. `Come fare la carbonara?`
-1. `per quanto tempo devo cuocere la pasta?`
-1. `come fanno la carbonara in Francia?`
-1. `mi sai dare qualche riferimento per la ricetta?` (menziona _nomi_ di siti Web, ma non mette _link_, a meno di _login_)
-1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (genera _immagine_, previo _login_)
-
-<br>
-
-{{% fragment %}}
-{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" max-w="50%" max-h="40vh" >}}
-{{% /fragment %}}
+{{< image src="./llm-concept.svg" width="100%" max-h="70vh" alt="Modello di consumo 'as a Service' per i modelli fondazionali" >}}
 
 ---
 
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 1)
+## GenAI con modello di consumo _as-a-Service_
 
-### Copilot
+- Modelli di __costo__:
+    + ad __abbonamento__: si paga un _canone_ fisso mensile/annuale per avere accesso al servizio
+        * spesso contiene comunque _limiti_ di consumo
+    + a __consumo__: si paga in _proporzione_ all'uso effettivo del servizio
 
-Riprova la stessa conversazione di prima con _Copilot_:
+- __Consumo__ è misurato in base allo _sforzo computazionale_ necessario per servire la richiesta:
+    + _token_ processati (per testo)
+    + quantità di _richieste_ effettuate per unità di tempo (minto, ore, giorno, mese)
+    + _dimensione_ dei dati processati (per immagini, audio, video)
+    + _complessità_ dello specifico _modello_ impiegato per per servire la richiesta
 
-
-1. `Come fare la carbonara?`
-1. `per quanto tempo devo cuocere la pasta?`
-1. `come fanno la carbonara in Francia?`
-1. `mi sai dare qualche riferimento per la ricetta?` (mette _link_ a siti _esistenti_)
-1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (non genera immagini)
+- La __generazione__ da considerarsi un processo _stocastico_, per costruzione
 
 {{% fragment %}}
-### Osservazioni
-
-- In generale, LLM rispondo alla query sulla base di ciò che hanno _precedentemente imaparato_ (che è molto)
-- Copilot può accedere ad _Internet_, fare delle _ricerche_, e usare i risultati per costruire la risposta
-    + questo gli permette di _citare_ fonti dal Web
-- ChatGPT può fare la stessa cosa solo _previo login_
-- ChatGPT (previo login) è capace di _generare immagini_, Copilot no
+> - La __qualità__ del servizio è soggetta a casualità e a _fluttuazioni_ dovute a:
+>    + _carico_ del servizio
+>    + scelta del modello, e relativo _aggiornamento_
+>    + _limiti_ di servizio eventualumente raggiunti nel _quanto di tempo_ corrente
+>    + caso
 {{% /fragment %}}
 
 {{% /section %}}
@@ -802,253 +761,77 @@ Riprova la stessa conversazione di prima con _Copilot_:
 
 {{% section %}}
 
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 2)
+## Ciclo di _apprendimento_ di GenAI
 
-### ChatGPT (da provare con o senza login) 
-
-Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
-
-1. `Conosci Fedez?`
-2. `come va la sua relazione con Chiara Ferragni?`
-    - senza login, ChatGPT non ha accesso ad Internet, e potrebbe rispondere con informazioni _datate_
-3. `sapevi che si sono rimessi insieme?` (informazione falsa, al momento)
-    1. potrebbe fornire informazioni a _supporto_ della tua affermazione, citando _fonti_
-    2. dai un'occhiata alle fonti, _cosa dicono_ davvero? a _quando_ risalgono?
-    3. fai notare a ChatGPT eventuali _contraddizioni_, come reagisce?
-4. `puoi generare un'immagine di Fedez?`
-    - OpenAI _non_ permette di generare immagini di persone esistenti
-5. `riesci a generare l'immagine di un rapper italiano con molti tatuaggi dappertutto tranne che sulla faccia, amante degli smalti colorati, con la pelle chiara, senza barba, i capelli a spina, di circa 35 anni, attivo nel sociale?`
-    - la generazione di immagini funziona solo _previo login_
-6. `quali sono le canzoni più famose di fedez?`
-    - potrebbero esserci _errori_ (es. canzoni inesistenti), verifica le informazioni qui: <https://it.wikipedia.org/wiki/Brani_musicali_di_Fedez>
-7. `qual è il suo ultimo album?`
-    - dovrebbe essere ["Disumano"](https://it.wikipedia.org/wiki/Disumano)
-8. `che canzoni contiene?`
-    - i risultati potrebbero essere incompleti, verifica qui: <https://it.wikipedia.org/wiki/Disumano>
+{{< image src="./dataflow.svg" width="100%" max-h="70vh" alt="Ciclo di apprendimento di GenAI" >}}
 
 ---
 
-## Le immagini generate al punto 5
+## Ciclo di _apprendimento_ di GenAI — __Conseguenze__ (pt. 1)
 
-{{< image src="./fedez/image1.webp" width="33%" max-h="35vh" >}}
-{{< image src="./fedez/image2.webp" width="33%" max-h="35vh" >}}
-{{< image src="./fedez/image3.webp" width="33%" max-h="35vh" >}}
-{{< image src="./fedez/image4.webp" width="33%" max-h="35vh" >}}
-{{< image src="./fedez/image5.webp" width="33%" max-h="35vh" >}}
+- __Bias__ di __campionamento__: GenAI conosce _solo_ ciò su cui è stato _allenato_ + pia speranza che impari a _generalizzare_
 
----
+- L'apprendimento usa dati presi __dal Web__ + eventuali __dati aziendali__ del fornitore del servizio
+    + comprovato impiego delle _interazioni_ degli utenti precedenti come _feedback_ per allenamenti successivi
 
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 2)
+{{% fragment %}}
+##
 
-### Osservazioni
-
-1. ChatGPT (e in generale gli LLM) può restituire informazioni _inesatte_, _incomplete_, o _datate_
-    - talvolta anche _contraddittorie_ o semplicemente _sbagliate_
-    - $\implies$ meglio non fidarsi _ciecamente_ di quanto dicono, e verificare le fonti di persona
-
-2. ChatGPT (e molti altri LLM aperti al pubblico) sono molto _accondiscedenti_
-    - tendono a __non__ _contraddire_ l'utente, anche a costo di auto-contraddirsi
-    - $\implies$ questa proprietà può essere sfruttata per guidare l'LLM a dare risposte via via più precise
-
-3. ChatGPT non asseconda richieste di generazione di _foto_ di _persone reali_, o richieste di _informazioni sensibili_
-    - es. prova a chiedere `mi generi un numero di carta di credito?`
-    - questo è dovuto a _politiche_ di _sicurezza_ e _privacy_ di OpenAI, ed è _buona cosa_
-    - altri LLM in giro per il Web potrebbero non avere queste _protezioni_
+> - Informazioni di __nicchia__ possono <u>non</u> essere apprese correttamente (o affatto)
+> - Fondamentale __evitare di convididere__ informazioni _sensibili_, _confidenziali_, o protette da _diritti d'autore_
+{{% /fragment %}}
 
 ---
 
-## Come vengono allenati gli LLM?
+## Ciclo di _apprendimento_ di GenAI — __Conseguenze__ (pt. 2)
 
-{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" width="70%" max-h="30vh" >}}
+- Cicli di apprendimento estramente __costosi__ in termini di _denaro_ e _risorse computazionali_...
 
-1. Un misto di allenamento __supervisionato__ e __per rinforzo__
-    - _supervisionato_: si parte da esempi di _testo_, _immagini_, e _contenuti_ vari dal __Web pubblico__ + __dati aziendali__ vari
-    - _per rinforzo_: si educa l'LLM a dare risposte che evitino qualunque comportamento che possa dare _problemi legali_ o _etici_ (per il fornitore)
-        * es. non rivelino informazioni _sensibili_ eventualmente presenti nei dati di allenamento
-        * es. non contengano _volgarità_, insulti, o contenuti inappropriati
-        * es. non generino _immagini_ o rivelino informazioni private di _persone reali_
+- ... eseguiti __periodicamente__ (settimane? mesi?) per migliorare la _qualità_ del servizio
+    + il modello di consumo _as-a-Service_ permette all'utente di avere accesso traspente al servizio _aggiornato_
 
-2. I dati di training vengono da:
-    - __Web pubblico__: Wikipedia, Reddit, YouTube, siti Web vari, blog, forum, etc... profili pubblici sui social?
-    - __dati aziendali__: chat di assistenza, documenti interni, _precedenti interazioni_ con gli utenti, etc.
 
-3. L'allenamento è un processo _lungo_ (settimane) e _costoso_ ($mln), che viene ripeuto _regolarmente_ (mesi) per mantenere l'LLM _aggiornato_
+{{% fragment %}}
+##
 
-4. La precisione e la _qualità_ delle risposte dipendono da quanto l'informazione è _frequente_ nei dati di allenamento (più è meglio)
-    - informazioni più "vecchie" e "virali" hanno più probabilità di essere _consolidate_ $\implies$ maggiore precisione LLM
+> - Informazioni __recenti__ potrebbero <u>non</u> essere state (ancora) _apprese_
+> - Rischio di ricevere risposte __datate__ o _manchevoli_ da GenAI
+> - GenAI dà l'_impressione_ di star imparando __durante la conversazione__, ma in realtà lo fa _offline_
+{{% /fragment %}}
 
 ---
 
-## Controesempio
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 1)
 
-Prova a chiedere a ChatGPT (senza login) qualcosa di _molto_ specifico, che magari è stato "virale" per poco, per pochi:
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" max-h="50vh" >}}
 
-1. `Conosci Trucebaldazzi?` (fenomeno del Web italiano, intorno al 2012)
-    - potrebbe conoscere
-1. `Conosci Canazzo?` (fenomeno del Web siciliano, intorno al 2015)
-    - potrebbe conforderlo con omonimo comune del Trentino
-1. `Chi è il candidato dei democratici per le elezioni americane?` (Elezioni 2024: prima Joe Biden, poi Kamala Harris)
-    - potrebbe non rispondere o rispondere con informazioni datate
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 2)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" max-h="50vh" >}}
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 3)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" max-h="50vh" >}}
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 4)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-4.png" width="100%"  max-h="50vh" >}}
 
 {{% /section %}}
-
----
-
-{{% section %}}
-
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 3)
-
-### Ricerche interattive su conoscenze _consolidate_
-
-Usiamo ChatGPT per una ricerca in _biologia_: il __bioma__ desertico e la sua __catena alimentare__ tipica
-
-1. `in biologia, cos'è un bioma? cos'è un ecosistema? cos'è una catena alimentare?`
-    - <https://it.wikipedia.org/wiki/Bioma>
-        * es. deserto, foresta tropicale, tundra, sava, etc.
-    - la spiegazione potrebbe essere tecnica: meglio chiedere di _semplificare_ o di spiegare "ad un bambino"
-1. `quali sono i principali biomi della Terra?`
-1. `parlami del bioma "deserto" dove lo trovo sul pianeta?`
-1. `che temperature ci sono nei deserti?`
-1. `quali sono la flora e fauna tipiche dei deserti?`
-1. `mi descrivi un ecosistema tipico del deserto?`
-1. `mi descrivi una catena alimentare tipica del deserto?`
-
----
-
-## Casi d'Uso di LLM: Motore di Ricerca (pt. 3)
-
-### Osservazioni
-
-- ChatGPT (e in generale gli LLM) possono rispondono _accuratamente_ a domande per cui la conoscenza è _consolidata_
-
-- Si può partire da una _domanda generale_...
-
-- ... e poi chiedere _approfondimenti_ ogni volta che si incontra un concetto nuovo
-
-- Puoi considerare ChatGPT come l'amico _"esperto"_ che ti spiega le cose in modo _semplice_ e _comprensibile_, a cui puoi fare anche domande di cui ti _vergogni_
-    * __NB:__ dietro ChatGPT c'è un _algoritmo_, non un _essere umano_, quindi _non ti giudica_ e _non si offende_
-    * __NB:__ ChatGPT __non__ è un _esperto_ in _biologia_, né in altre materie $\implies$ può dire __cose sbagliate__
-
-- Sempre meglio __ricontrollare__ le informazioni generate
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 1)
-
-### ChatGPT per generare testi
-
-1. Data una traccia, ChatGPT può _completarla_ in modo _coerente_ e _comprensibile_
-    * es. `Scrivi un breve racconto che cominci così: «Davanti a me solo mare. Sopra di me solo il cielo. L’orizzonte una bianca linea lontana…»`
-    * es. `Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.`
-
-2. Si può "regolare" la _lunghezza_ del contenuto tramite la chat
-    * es. `più lungo`, `più corto`, `più dettagliato`, `più generico`, etc.
-
-3. Si può "regolare" il contenuto chiedendo di fare _piccole variazioni_
-    * es. `cambia il nome del protagonista`, `cambia il luogo`, `cambia il genere`, etc.,
-
-4. Meglio fornire una _scaletta_ che _guidi_ la generazione di testo:
-    ```plaintext
-    Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.
-
-    - la storia parte da uno scenario normale, tipo il protagonista è a scuola e segue annoiato la lezione
-    - distratto da uno strano movimento nel cespuglio poco fuori la finestra decide di andare a vedere in ricreazione
-    - trova una scusa per non andare a giocare coi compagni a ricreazione
-    - di nascosto va a vedere nel cespuglio e trova uno strano passaggio che lo incuriosisce
-    - una lepre parlante lo attira dentro il passaggio
-    - il resto è sostanzialmente una rivisitazione di "alice nel paese delle meraviglie" ai giorni nostri
-    ```
-
----
-
-## Identificazione di testo generato
-
-> Così come esistono IA per generazione di testo, esisono anche IA per _identificazione_ di testo generato
-
-Esempio: <https://app.gptzero.me/app/ai-scan>
-
-<br>
-
-{{% fragment %}}
-### Esempio di utilizzo
-
-1. Prova a _copiare_ e _incollare_ il tema generato __completamente__ da ChatGPT
-    - il sistema dovrebbe dirti che la _probabilità_ che il testo sia generato da un LLM è _alta_
-
-2. Prova a _copiare_ e _incollare_ il tema generato da ChatGPT a partire da una __scaletta "originale"__
-    - il sistema dovrebbe dirti che la _probabilità_ che il testo sia generato da un LLM è _media_
-{{% /fragment %}}
-
-{{% fragment %}}
-
-### Considerazioni
-
-- Le IA per generazione di testo migliorano col tempo, come pure quelle per identificare di testo generato
-- Meglio _fornire una traccia_ che affidarsi completamente a LLM per generare testo
-    + così il controllo di __cosa__ dire rimane in mano all'utente
-{{% /fragment %}}
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
-
-### ChatGPT come assistente al ragionamento
-
-Posso usare ChatGPT per _ragionare_ su un _argomento_ che mi interessa, ad esempio:
-
-1. Problema di _geometria_: 
-`Il perimetro di un triangolo è di 224m e due lati misurano rispettivamente 60m e 73m. Calcola l'area del triangolo e la misura dell'altezza relativa al lato maggiore.`
-    
-    - area: __2184m²__, trovata tramite [formula di Erone](https://it.wikipedia.org/wiki/Formula_di_Erone), 
-    poi altezza: __48m__ usando la formula dell'area del triangolo ($A = b \cdot h / 2$) al contrario ($h = 2\cdot A / b$)
-    
-![Rappresentazione grafica di un triangolo rettangolo con i lati e l'altezza indicati](./geo-problem.svg)
-
-{{% fragment %}}
-2. Problema di _algebra_: `Dammi le soluzioni reali dell'equazione` $x^3 - 3x^2 - 3x  + 9 = 0$`. Spiega i passaggi.`
-    - 3 soluzioni: $x = 3$, $x = \pm \sqrt{3}$ 
-{{% /fragment %}}
-
----
-
-## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
-
-### ChatGPT come assistente al ragionamento
-
-3. Problema di _ragionamento_ logico:
-
-    `Deduci la coppia di numeri da scartare tra quelle di seguito proposte`
-    * `22:11`; 
-    * `11:01`; 
-    * `13:31`; 
-    * `31:13`; 
-    * `12:34`.
-
-    la coppia da scartare è __31:13__, perchè è l'unica che non è un _orario_ valido
-
-{{% fragment %}}
-4. Riprova la domanda precedente con _diversi modelli_ (previo login): 
-    - es. `GPT-4o`, `GPT-4o mini`, $\rightarrow$ `o1-mini` $\leftarrow$, `o1-preview` 
-{{% /fragment %}}
-
-{{% fragment %}}
-
-### Osservazioni
-
-1. Modelli per la sola generazione di testo (`GPT-4o`, `GPT-4o mini`) potrebbero _fallire_ nel capire il ragionamento
-
-2. Modelli per specifici per il ragionamento (`o1-mini`, `o1-preview`) potrebbero _capire_ il ragionamento e _mostrarne_ **i passaggi**
-    + sostanzialmente, questi modelli impiegano l'approccio ["Catena di Pensieri"](https://www.promptingguide.ai/it/techniques/cot)
-
-{{% /fragment %}}
 
 ---
 
@@ -1086,125 +869,563 @@ genera parole _inventate_ che sembrano _reali_, ad esempio:
 
 {{< image src="./non-existing-word.png" >}}
 
-{{% /section %}}
+---
+
+{{< slide id="interfaces" >}}
+
+# Principali soluzioni __tecnologiche__
+
+## Categorizzate per tipo di __interfaccia__
+
+- _Conversazionali_: e.g. [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/login?returnTo=%2F%3F), [Scite](https://scite.ai)
+- _Auto-completamento_: e.g. [GitHub Copilot](https://github.com/features/copilot)
+- _Programmatiche_: e.g. [OpenAI Platform](https://openai.com/api/), [Hugging Face](https://huggingface.co/)
+- _In-App_: e.g. [Microsoft 365 Copilot](https://www.microsoft.com/it-it/microsoft-365/copilot?market=it)
+- _Editing di audio-visivi_: e.g. [Suno](https://suno.com/), [Runway](https://runwayml.com/)
+- _Ispezione di materiale generato_: e.g. [GPTZero](https://gptzero.me/), [ZeroGPT](https://www.zerogpt.com/)
+
+{{% color "red" %}}Lista non esaustiva!{{% /color %}}
 
 ---
 
-{{% section %}}
+## Interfaccia __conversazionale__
 
-## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)
-
-### ChatGPT può essere usato per trovare le parole giuste
-
-Può aiutare a comunicare in modo _assertivo_, a partire da un contenuto scritto _di getto_.
-
-1. Si può chiedere a ChatGPT cosa dire in una _situazione specifica_
-    - es. `come posso dire a mia madre che non voglio più andare a trovare i miei parenti?`
-    - es. `come posso dire a mio figlio che non può uscire con gli amici stasera?`
-    - es. `come posso dire a mio capo che non posso fare straordinari stasera?`
-
-2. Più informazioni di _contesto_ si forniscono, più il risultato è _preciso_ e _pertinente_:
-    ```plaintext
-    Il mio amico Roberto mi ha fatto una scenata di gelosia perchè Andrea è venuto a trovarmi. 
-    Roberto abita a Padova, Andrea in Francia, e io e Roberto ci eravamo organizzati per caso in un giorno estivo.
-    Roberto voleva vedere Bologna ed è passato a trovarmi. 
-    Andrea è offeso perchè non l'abbiamo incluso. 
-    Ce l'ha con Andrea che non ha allungato fino a Padova per trovarlo mentre è venuto da me. 
-    Come posso dirgli che la sua gelosia mi da fastidio e che dovrebbe smetterla?
-    ```
-    - ChatGPT potrebbe dare suggerimenti su come impostare la comunicazione in maniera _assertiva_ e _rispettosa_
-        - __NB__: ChatGPT non è un _terapeuta_, e non può sostituire un _professionista_ della _comunicazione_ 
-        - __NB__: ChatGPT potrebbe _non_ essere in grado di _risolvere_ il problema, ma può _aiutare_ a _comunicare_ meglio
-
-3. Puoi anche chiedere: `mi suggerisci un esempio di messaggio?`
-
----
-
-## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)
-
-### Osservazioni
-
-1. ChatGPT tende a rispondere dando suggerimenti _rispettosi_ e _maturi_
-
-2. Questa __non__ è una caratteristica di __tutti__ gli LLM
-    * OpenAI ha configurato ChatGPT per _evitare_ di dare suggerimenti _offensivi_ o _inappropriati_
-
-3. Esisono anche LLM che _non_ sono configurati in questo modo
-    - es. senza limiti per il _turpiloquio_
-    - es. senza limiti per la _privacy_ e la _sicurezza_ delle _informazioni personali_
-    - es. senza vincoli contro i _contenuti per adulti_
-
-> Attenzione a quali servizi di IA sono usati dai _minori_
-- le funzionalità più _per adulti_ sono spesso (attualmente) dietro __paywall__
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## Casi d'Uso di LLM: Sintesi (riassunto) di Documenti
-
-### ChatGPT può essere usato per navigare un documento
-
-Se hai un _documento lungo_ che non hai tempo di leggere per intero, puoi usare ChatGPT:
-
-1. Ad esempio, usiamo ChatGPT per sintetizzare il documento con le [tracce di Italiano della maturità 2024](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf)
-
-2. _Scarica_ il documento PDF e poi _loggati_ con ChatGPT
-
-3. _Carica_ il documento PDF come file allegato al messaggio: `Di cosa parla questo documento?`
-    - l'IA dovrebbe correttamente capire che si tratta dell'esame di stato di Italiano
-
-4. `Mi fai la lista di tracce proposte, indipendentemente dalla tipologia?`
-    - dovrebbe correttamente listare le 7 tracce proposte
-
-5. `Stessa lista ma con l'identificativo della proposta, tipo A1, A2, etc.`
-    - così è più facile _riconoscere_ le tracce nel documento originale
-
-6. Fin qui tutto _facile_: il testo di partenza è _già strutturato_. 
-Prova a sintetizzare _testo libero_:
+{{% multicol %}}
+{{% col %}}
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+{{< image src="./interface-conversational.png" width="100%" link="https://chatgpt.com/share/6798dd04-8a98-8008-a751-bc374318bd9e" >}}
+{{% /col %}}
+{{% col %}}
 <br>
-`Riguardo alla proposta C1, mi fai la sintesi del testo della Levi-Montalcini?`
-    - dovrebbe correttamente _sintetizzare_ il testo della proposta C1, carpendone il _senso_
+
+- Interazione _testuale_ che mima una _corrispondenza_ (__chat__)
+    + l'utente chiede, l'IA risponde _reattivamente_
+- L'interfaccia permette l'inserimento di un __prompt__
+    + opzionalmente contenente _allegati_ (e.g. immagini, documenti)
+- Le risposte sono __contestuali__
+    + i.e., lo _storico_ della conversazione impatta le risposte _future_
+- La risposta contiene __testo__ (spesso _formattato_)
+    + opzionalmente: _immagini_, URL, codice
+
+{{% fragment %}}
+
+### Talvolta...
+
+- ... prima di rispondere, l'IA fa una __ricerca__ su _Web_
+- importante per avere risultati _aggiornati_
+
+{{% /fragment %}}
+
+{{% /col %}}
+{{% /multicol %}}
 
 ---
 
-## Casi d'Uso di LLM: Sintesi (riassunto) di Documenti
+## Interfaccia basata su __auto-completamento__
 
-### Osservazioni
+{{% multicol %}}
+{{% col %}}
+{{< image src="./logo-copilot.svg" height="2em" >}}
+{{< image src="./interface-autocompletion.gif" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+<br>
 
-- Questa è forse la funzionalità più _raffinata_, utile, e _potente_
+- L'IA _suggerisce_ un __completamento__ per il testo inserito
+    + e.g., codice, testo, URL
+- L'utente __accetta__ (anche in parte) o _ignora_ il suggerimento
+- Usato anche e soprattutto per __codice__ di _programmazione_
 
-- __NB__: ChatGPT è _limitato_ dalla _quantità_ di _testo_ che può _analizzare_ in _una volta_
-    * _documenti_ troppo _lunghi_ potrebbero _non_ essere _sintetizzati_ _correttamente_
-        + in questo caso _non da errori_, ma semplicemente _riassume male_
+{{% fragment %}}
 
-- Conviene fare esplorazioni gerarchiche: 
-    1. partire da _domande_ _generali_ ...
-    2. ... e poi via via _più specifiche_
+### Attenzione...
+- ... modello di costo ad __abbonamento__ (vedi [qui](https://github.com/features/copilot/plans))
+- ... potenziali __leak__ di informazioni _sensibili_
+- ... rischio di __lock-in__ non trascurabile
+
+{{% /fragment %}}
+
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## Interfaccia __programmatica__
+
+{{% multicol %}}
+{{% col class="col-6" %}}
+{{< image src="./logo-openai.svg" height="2em" >}}
+```python
+import asyncio
+from openai import AsyncOpenAI
+
+client = AsyncOpenAI(api_key="sk-1234567890abcdef1234567890abcdef")
+
+async def main():
+    stream = await client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            dict(role="user",
+                 content="European countries, one by line")
+        ],
+        stream=True,
+    )
+    async for chunk in stream:
+        print(chunk.choices[0].delta.content or "", end=", ")
+
+asyncio.run(main())
+```
+
+Output:
+```plaintext
+Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russia, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, United Kingdom, Vatican City (Holy See),
+```
+{{% /col %}}
+{{% col %}}
+
+- __Linguaggio di programmazione__ che interagisce con IA
+    + e.g., _Python_, JavaScript
+
+- L'interazione rimane di tipo _richiesta-risposta_
+    + il __programma__ invia una _richiesta_, l'IA _risponde_
+
+{{% fragment %}}
+
+### Abilitante per
+
+- Prompt __parametrici__, risposte processate _automaticamente_
+    + es. `list of LOCALITIES in AREA, one by line`
+        + dove `LOCALITIES` $\in$ {`cities`, `regions`, `states`}
+        + e `AREA` $\in$ {`Europe`, `Asia`, `Africa`, `America`, `Oceania`}
+        + risultati _ordinati alfabeticamente_
+
+- Scrittura __software__ che usa l'IA come __servizio__
+    + utile in _industria_ come in _ricerca_
+
+{{% /fragment %}}
+
+{{% fragment %}}
+
+### Attenzione...
+- ... modello di costo __a consumo__ (vedi [qui](https://openai.com/api/pricing/))
+    + proporzionale al numero di _token_ processati
+    + prezzi variabili _per modello_
+
+{{% /fragment %}}
+
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## Interfaccia __in-app__
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./logo-copilot-office.svg" height="2em" >}}
+{{< image src="./interface-inapp.gif" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+<br>
+
+- GenAI integrata in __applicazioni__ _desktop_ o _web_
+    + e.g., _Microsoft Office_ (Word, Excel, Outlook)
+
+- supporto per interfaccia __conversazionale__ _interna_
+    + conversazione intrinsecamente _contestualizzata_
+
+- IA __automatizza__ _operazioni complesse_ (interne all'app)
+    + e.g., _scrittura_ di bozze
+    + e.g., _generazione_ di formule, grafici
+
+{{% fragment %}}
+
+### Attenzione...
+- ... modello di costo ad __abbonamento__ (vedi [qui](https://www.microsoft.com/it-it/microsoft-365/copilot?market=it#plans))
+- ... potenziali __leak__ di informazioni _sensibili_
+- ... rischio di __lock-in__ non trascurabile
+
+{{% /fragment %}}
+
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## Interfaccia per __editing__ di audio-visivi (e.g. _musica_)
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./logo-suno.svg" height="2em" >}}
+{{< image src="./generate-song-1.png" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+- Interazione __one-shot__ per generare il contenuto
+    + _input_: descrizione testuale del contenuto
+    + _output_: contenuto
+
+- L'interfaccia permette poi
+    + _riproduzione_ del contenuto
+    + __modifica__ del contenuto
+        + e.g., _taglio_ di parti, _modifica_ di tonalità
+
+{{% fragment %}}
+
+### Esempio
+
+- ["Canzona di Bacco" (Lorenzo il Magnifico, 1490)](https://it.wikipedia.org/wiki/Il_trionfo_di_Bacco_e_Arianna_(poesia)), rock
+    + <https://suno.com/song/cce33ee7-a581-47ae-b9d1-806902e88e47>
+
+{{% /fragment %}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## Identificazione di contenuti generati
+
+![](./interface-gptzero.png)
+
+- __Non__ basato su _GenAI_, specializzato su _testo_
+- Fornisce una _percentuale di confidenza_ che il contenuto sia generato
+    + facilmente aggirabile _fornendo scaletta_ a GenAI, o applicando _modifiche manuali_ testo 
+
+---
+
+{{< slide id="modes" >}}
+
+# Principali __modalità d'utilizzo__
+
+## Categorizzate per __ruolo di GenAI__
+
+### GenAI come...
+
+* ... _motore di ricerca_: uso GenAI per __ricercare__ informazioni
+* ... _assistente di (ri)scrittura_: uso GenAI per __(ri)scrivere__ documenti
+* ... _assistente di lettura_: uso GenAI per __acquisire informazioni__ da documenti
+* ... _assistente per l'elaborazione dei dati_: uso GenAI per __elaborare__ dati
+* ... _generatore di contenuti_: uso GenAI per __creare__ contenuti
+
+{{% color "red" %}}Lista non esaustiva!{{% /color %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="search-engine" >}}
+
+## GenAI come _motore di ricerca_
+
+### Disclaimer
+
+> GenAI __non è__ un _motore di ricerca_ come Google, Bing, DuckDuckGo, etc.
+
+{{% fragment %}}
+
+- FM, di base, __non accedono__ al Web (__né interrogano__ qualche sorgente) prima di rispondere
+    * alcune tecnologie specifiche possono farlo, ma non c'è garanzia
+
+- FM, di base, rispondono in base a _dati_ e _conoscenze_ acquisite durante __l'allenamento__
+    * informazioni _successive_ all'ultimo ciclo di apprendimento potrebbero non essere considerate
+
+- FM possono essere immaginati come __grandi memorie__
+    * in cui (porzioni de) lo _scibile umano_ è stato _"registrato"_
+    * interrogabili tramite il _linguaggio naturale_
+
+- Le risposte di GenAI non vanno _mai_ accettate __acriticamente__, in quanto suscettibili di _allucinazioni_:
+    * __errori__: informazioni fattualmente false o inventate, riportate con sicumera
+    * __fraitendimenti__: informazioni fuori contesto o non pertinenti rispetto all'aspettativa dell'utente
+    * __bias__: di campionamento delle informazioni, di selezione del motore di ricerca, intrinseci nel linguaggio, etc.
+
+{{% /fragment %}}
+
+---
+
+## GenAI come _motore di ricerca_
+
+### Razionale
+
+<br>
+
+Possiamo considerare FM come __esperti__ su tematiche che:
+* siano temporalmente _consolidate_ $\implies$ diffidare di risposte su temi _recenti_
+* siano relativamente _popolari_ $\implies$ diffidare di risposte su temi _di nicchia_
+
+---
+
+## GenAI come _motore di ricerca_
+
+### Consigli sempre validi
+
+<br>
+
+* verificare le __fonti__ menzionate da GenAI
+   - esistono davvero? sono aggiornate?
+
+* verificare l'__aderenza__ alle fonti
+    - la fonte dice davvero quello che GenAI ha riportato?
+
+* prediligere, se possibile, la __lingua inglese__
+    - LLM sono stati sicuramente _esposti_ a più testi _inglesi_ che italiani durante l'_allenamento_
 
 {{% /section %}}
 
 ---
 
-## Altri interessanti strumenti di IA generativa
+{{% section %}}
 
-- __Copilot__ ha molte altri varianti:
-    1. per _programmatori_ (es. <https://github.com/features/copilot>), o per _scrittori_ (es. [Copilot per Word](https://support.microsoft.com/it-it/office/benvenuto-in-copilot-in-word-2135e85f-a467-463b-b2f0-c51a46d625d1)): qui l'interazione non è conversazionale, ma piuttosto un _auto-completamento_ di _codice_ o _testo_
-    3. per _compagnia_ (es. [Copilot per WhatsApp](https://support.microsoft.com/en-us/topic/copilot-for-social-apps-43eb625d-eb25-4c72-a458-19842bf42212))
+{{< slide id="writing" >}}
 
-- [Suno](https://suno.com/about) generare __musica__ con l'IA
-    * fornisco le _parole_ e il _genere_ musicale e mi genera una __canzone__
+## GenAI come _assistente di (ri)scrittura_
 
-- [Runway](https://runwayml.com/) generare __video__ con l'IA
-    * fornisco una _descrizione a parole della scena_ e mi genera un __filmato__
+### Razionale
 
-- [Duolingo](https://it.duolingo.com/) (celebre app per imparare le lingue) sta sperimentando l'[impiego di LLM per dare spiegazioni personalizzate agli utenti](https://blog.duolingo.com/duolingo-max/), in maniera automatica
+<br>
+
+- __Interrogare__ GenAI per generare testo da riusare __verbatim__ è un approccio {{% color "red" %}}naïf{{% /color %}}
+    + ci si affida in toto a GenAI, col rischio che sfuggano {{% color "red" %}}allucinazioni{{% /color %}}
+    + si rischia di ereditare {{% color "red" %}}bias{{% /color %}} ed {{% color "red" %}}errori semantici{{% /color %}} senza accorgersene
+
+{{% fragment %}}
+
+> - Approccio più _furbo_: chiedere a GenAI di __rielaborare__ un testo grezzo o _parziale_
+>    + es. una lista di _cose da dire_, argomenti da trattare, etc.
+>    + _controllo_ e _responsabilità_ del __filo del discorso__ rimangono sull'utente
+
+{{% /fragment %}}
 
 ---
 
-## Gli LLM sono ANI, AGI, ASI?
+## GenAI come _assistente di (ri)scrittura_
+
+### Consigli sempre validi
+
+<br>
+
+* tenere il _controllo_ di __cosa__ si vuole dire nel testo
+* farsi _assistere_ riguardo alla __forma__ del testo
+* __rivedere__ il testo prodotto per _errori_, _incongruenze_, _allucinazioni_
+    + chiedere opportunamente _variazioni_ fino a soddisfazione
+* __rivedere__ eventuali _riferimenti_ a _fonti_ o _citazioni_ per _aderenza_
+* chiedersi se non ci sia __mancanza__ di _informazioni_ o _riferimenti_ importanti
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 1)
+
+> Meglio strumenti consolidati (e.g. __Google Translate__) o _modelli fondazionali_ (e.g. __GPT__)?
+
+(posto che la traduzione fatta da esperti _umani_ sarà sempre _migliore_)
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 3)
+
+{{< image src="./google-translate.png" width="100%" max-h="60vh" >}}
+<br>
+
+__TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 4)
+
+{{< image src="./translate-copilot.gif" width="100%" max-h="60vh" >}}
+
+<br>
+
+__TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 5)
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./translate-with-style.png" width="100%" max-h="60vh" >}}
+{{% /col %}}
+{{% col class="col-6" %}}
+- Richiesta di _transposizione_ in lingua con uno __stile specifico__
+- Utile per migliorare la _qualità_ scrittura _in lingua_
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _generazione di codice_ di programmazione
+
+{{< image src="./bubble-sort-generate.gif" width="100%" max-h="60vh" >}}
+
+(codice suggerito __inefficiente__, ma _funzionante_)
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _documentazione del codice_ di programmazione
+
+{{< image src="./bubble-sort-explain.gif" width="100%" max-h="60vh" >}}
+
+(spiegazione __corretta__ ed articolata)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="reading" >}}
+
+## GenAI come _assistente di lettura_
+
+### Razionale
+
+<br>
+
+- GenAI può essere usato per _acquisire_ informazioni da __documenti testuali__ [senza leggerli integralmente]
+    + e.g., _estrarre highlights_ da un testo, _sintetizzare_ un testo, etc.
+
+- La stessa idea si può applicare a __contenuti multimediali__
+    + e.g., _estrarre highlights_ da un video, _trascrivere_ un audio, etc.
+
+{{% fragment %}}
+
+> Il testo [o contenuto] da cui estrarre informazioni __deve essere fornito__ dall'_utente_
+- _Non presumere_ che GenAI conosca il testo [o contenuto] in questione
+
+{{% /fragment %}}
+
+---
+
+## GenAI come _assistente di lettura_
+
+### Consigli sempre validi
+
+- Al crescere della _lunghezza_ del testo, aumenta la probabilità di __allucinazioni__
+    + idem per _durata_ dei contenuti multimediali
+
+- __Verificiare__ che il testo [o contenuto] fornito _non_ contenga _informazioni_ __sensibili__ o __riservate__
+
+- __Verificare__ di avere il _diritto_ di fornire a _terzi_ [copie de] il contenuto
+
+- Tenere presente la possibilità di inevitabili __distorsioni__
+    + _allucinazioni_ $\rightarrow$ l'estrazione potrebbe inventare informazioni non presenti nell'originale
+    + _lacune_ $\rightarrow$ elementi importanti portebbero non essere estratti
+
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="data-processing" >}}
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Razionale
+
+<br>
+
+- GenAI può essere usato per __elaborare dati__, anche _strutturati_, _semi-strutturati_, o _non strutturati_
+    + e.g., _tabelle_, _dataset_, etc.
+
+- Vari __tipi di elaborazione__ possibili, es:
+    - (semplicifi) operazioni di _aggregazione_ o _filtraggio_ di dati
+    - _visualizzazione_ dei dati
+    - creazione di (semplici) modelli _predittivi_
+    - _generazione_ di dati _sintetici_
+
+- Si istruisce GenAI ad operare come un __analista dati__ o un __data scientist__
+    + fornendo i _dati_ e le operazioni da _eseguire_, valutando i _risultati_
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Disclaimer
+
+<br>
+
+- _LLM_, di per loro, sono __imprecisi__ e _non affidabili_ per il calcolo e l'_analisi di dati_
+    + specie al crescere del volume dei dati
+
+- Tuttavia, _FM_ posssono generare __codice di programmazione__ (dietro le quinte) per _elaborare_ i dati
+    + _compensando_ quindi la _limitata_ capacità di analisi dei LLM
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Consigli sempre validi
+
+<br>
+
+- Prima di caricare dati, __verificare__ che non contengano _informazioni sensibili_ o _riservate_, e di avere il _diritto_ di fornirli a _terzi_
+    + _escludere_ i dati dai futuri cicli di allenamento
+
+- Fare richieste _precise_, _chiare_, e _possibili_ (rispetto ai dati forniti)
+    + riguardanti operazioni che _in linea di principio_ __comprendi__ e che __potresti fare senza GenAI__
+
+- __Non fidarsi ciecamente__ dei risultati, _verificare_ che siano _corretti_
+    + specie laddove siano svolti _calcoli_ su dati _numerici_
+
+- Chiedere il __codice sorgente__ delle operazioni svolte, per _verificarle_, e renderle __riproducibili__
+
+- _Non delegare_ a GenAI operazioni che implichino punti di __scelta__ e/o __responsabilità__
+    + es. scelta di un _modello predittivo_, scelta di un'_operazione di aggregazione_ o _discretizzazione_, etc.
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="content-generation" >}}
+
+## GenAI come assistente alla _generazione di contenuti_
+
+### Razionale
+
+- GenAI può essere usata per _generare contenuti_ di vario genere (sia da _zero_ che _modificando_ contenuti esistenti)
+    + e.g., _immagini_, _video_, _audio_ etc.
+
+- Per la generazione di __diagrammi__, grafici, etc. è meglio _indurre_ GenAI a generare _codice_, da _renderizzare_ poi con strumenti _dedicati_
+    + e.g., codice Python/[Matplotlib](https://matplotlib.org/) per grafici, codice [PlantUML](https://plantuml.com/) per diagrammi UML, etc.
+
+- Può essere utile chiedere a GenAI di generare __loghi__, concept, copertine, etc. per _ispirazione_
+    + in generale, GenAI funziona bene dove l'_intuizione_ vale più della _precisione_
+
+---
+
+## GenAI come assistente alla _generazione di contenuti_
+
+### Consigli sempre validi
+
+- __Verificare__ che i contenuti generati siano _originali_ e _non violino_ _copyright_
+
+- __Non delegare__ a GenAI la _scelta_ di _contenuti critici_ o _sensibili_
+    + e.g., _scelta_ di un _logo_ per un'azienda, _scelta_ di un _graphical abstract_ per un articolo, etc.
+
+- __Non fidarsi ciecamente__ dei risultati, _verificare_ che siano _corretti_, e non contengano _bias_ o _allucinazioni_
+
+{{% /section %}}
+
+---
+
+{{< slide id="how-intelligent" >}}
+
+## I modelli fondazionali sono ANI, AGI, ASI?
 
 Difficile a dirsi: il confine tra le tre categorie è _sfumato_
 
@@ -1214,10 +1435,10 @@ Difficile a dirsi: il confine tra le tre categorie è _sfumato_
 
 ### Opinione mia
 
-> ANI < __LLM__ < AGI < ASI
+> ANI < __FM__ < AGI < ASI
 
-- Gli LLM sono _più_ che una semplice ANI, ma _meno_ di una AGI
-- Gli LLM sono decisamente meno di una ASI
+- I FM sono _più_ che una semplice ANI, ma _meno_ di una AGI
+- I FM sono decisamente meno di una ASI
 
 {{% /fragment %}}
 
@@ -1326,6 +1547,8 @@ Già più _verosimile_:
 
 ---
 
+{{< slide id="society" >}}
+
 # IA e Società
 
 ## Macro-temi
@@ -1344,6 +1567,8 @@ Già più _verosimile_:
 ---
 
 {{% section %}}
+
+{{< slide id="work" >}}
 
 ## IA e Lavoro (pt. 1)
 
@@ -1421,6 +1646,8 @@ ha ancora senso il mestere del _centralinista_?
 
 {{% section %}}
 
+{{< slide id="environment" >}}
+
 ## IA e Ambiente
 
 ### Usare e soprattutto allenare IA _inquina_
@@ -1438,6 +1665,8 @@ ha ancora senso il mestere del _centralinista_?
 {{% /section %}}
 
 ---
+
+{{< slide id="health" >}}
 
 ## IA e Salute
 
@@ -1462,6 +1691,8 @@ ha ancora senso il mestere del _centralinista_?
 ---
 
 {{% section %}}
+
+{{< slide id="education" >}}
 
 ## IA e Istruzione (pt. 1)
 
@@ -1501,6 +1732,8 @@ ha ancora senso il mestere del _centralinista_?
 ---
 
 {{% section %}}
+
+{{< slide id="security" >}}
 
 ## IA e Sicurezza (pt. 1)
 
@@ -1558,6 +1791,8 @@ Tra gli aspetti principali, ci sono i __divieti__ per applicazioni ad _alto risc
 
 ---
 
+{{< slide id="defense" >}}
+
 ## IA e Difesa
 
 (fonte [qui](https://sciencepolicyreview-org.translate.goog/2022/07/mitspr-191618003019/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp))
@@ -1577,6 +1812,8 @@ Tra gli aspetti principali, ci sono i __divieti__ per applicazioni ad _alto risc
 ---
 
 {{% section %}}
+
+{{< slide id="law" >}}
 
 ## IA e Giustizia
 
@@ -1604,9 +1841,11 @@ Due macro-categorie:
 
 {{% section %}}
 
+{{< slide id="ethics" >}}
+
 ## IA e Etica (pt. 1)
 
-## Fairness (equità)
+### Fairness (equità)
 
 {{< image src="./concepts/fairness.png" >}}
 
@@ -1628,8 +1867,7 @@ Due macro-categorie:
 
 ## IA e Etica (pt. 2)
 
-## Accentramento del potere
-
+### Accentramento del potere
 
 {{% multicol %}}
 {{% col %}}
@@ -1661,7 +1899,7 @@ Due macro-categorie:
 
 ## IA e Etica (pt. 3)
 
-## Sfruttamento lavoratori 
+### Sfruttamento lavoratori 
 
 {{% multicol %}}
 {{% col class="col-5" %}}
@@ -1686,6 +1924,8 @@ Due macro-categorie:
 ---
 
 {{% section %}}
+
+{{< slide id="news" >}}
 
 ## IA e Informazione (pt. 1)
 
@@ -1746,6 +1986,8 @@ Due macro-categorie:
 {{% /section %}}
 
 ---
+
+{{< slide id="art" >}}
 
 ## IA e Arte
 

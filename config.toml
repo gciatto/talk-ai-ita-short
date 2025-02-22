@@ -1,4 +1,4 @@
-baseURL = "https://gciatto.github.io/talk-ai-ita"
+baseURL = "https://gciatto.github.io/talk-ai-ita-short"
 languageCode = "it-it"
 title = "A cosa ci serve l'IA?"
 disableKinds = ["sitemap", "RSS"]
